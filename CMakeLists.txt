@@ -1,4 +1,6 @@
-cmake_minimum_required(VERSION 3.18)
+cmake_minimum_required(VERSION 3.5)
+
+project(intro)
 
 if (MSVC)
     add_compile_options(/W4)
