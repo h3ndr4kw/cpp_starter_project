@@ -7,7 +7,7 @@ int main()
   auto begin = std::chrono::high_resolution_clock::now();
   [out = std::ref(std::cout << "Hello ")](){ out.get() << "World\n";}();
 
-  for (int i = 0; i < 1e9; i++)
+  for (int i = 0; i < 1e5; i++)
   {
     /* code */
     std::cout << i << std::endl;
